@@ -451,19 +451,39 @@ section{
 }
 
 
+.video{
+    background:url(image/book-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.video video{
+    display: block;
+    margin:auto;
+    width: 50rem;
+    height: 30rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.happy{
+    overflow: hidden; /* 避免長方框下面顯示不正常 */
+    background:url(image/book-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+.happy h1{
+    text-align: center;
+    font-size: 50px;
+}
+.happy img{
+    display: block;
+    margin:auto;
+    width: 75rem;
+    height: 50rem;
+}
+.bdtext p{
+    text-align: center;
+    font-size: 25px;
+}
 /* media queries  */
 
 @media(max-width:991px){
